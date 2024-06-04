@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    padding: 0.5%;
+    margin: 2%;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover, a:focus{
+    color: dodgerblue;
+    background-color: gold;
+}
+a:active{
+    color: red;
+}
